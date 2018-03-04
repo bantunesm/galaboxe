@@ -158,7 +158,7 @@ section.hashtag {
     max-width: 100%;
     color: #FFF;
     text-align: center;
-    min-height: 420px;
+    padding-top: 80px;
     display: flex;
 }
 
@@ -166,14 +166,35 @@ section div.hashtag--wrap {
     max-width: 1280px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 section.hashtag .title{
     font-family: 'Evogria';
     font-size: 70px;
-    margin: auto;
+    margin: auto auto 0 auto;
 }
 
-section.hashtag .button--sort{
-    margin: auto;
+section.hashtag .button--sort {
+    margin: 30px auto auto;
+    text-transform: uppercase;
+    font-family: 'EvogriaItalic';
+    border: 2px solid;
+    padding: 8px 30px;
+}
+
+section.callback--cta .button--cta {
+    font-size: 46px;
+    width: 570px;
+    height: 100px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+section.infospratiques {
+    background: #f1efee;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
 }
