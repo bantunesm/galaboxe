@@ -1,8 +1,41 @@
+@font-face {
+    font-family: 'EvogriaItalic';
+    src: url('../fonts/EvogriaItalic.eot');
+    src: url('../fonts/EvogriaItalic.eot') format('embedded-opentype'),
+         url('../fonts/EvogriaItalic.woff2') format('woff2'),
+         url('../fonts/EvogriaItalic.woff') format('woff'),
+         url('../fonts/EvogriaItalic.ttf') format('truetype'),
+         url('../fonts/EvogriaItalic.svg#EvogriaItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'Evogria';
+    src: url('../fonts/Evogria.eot');
+    src: url('../fonts/Evogria.eot') format('embedded-opentype'),
+         url('../fonts/Evogria.woff2') format('woff2'),
+         url('../fonts/Evogria.woff') format('woff'),
+         url('../fonts/Evogria.ttf') format('truetype'),
+         url('../fonts/Evogria.svg#Evogria') format('svg');
+}
+
+
+
 h1,h2,h3 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'EvogriaItalic';
     text-transform: uppercase;
     text-align: center;
-    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+h4,h5 {
+    font-family: 'Evogria';
+    color: #003366;
+}
+
+
+h3 {
+    color: #cc0000;
 }
 
 header {
@@ -16,6 +49,21 @@ section {
     max-width: 1280px;
     margin: 0 auto;
     padding: 50px 20px;
+}
+
+.button--cta {
+    font-family: 'Evogria';
+    text-transform: uppercase;
+    padding: 7px;
+    text-align: center;
+    color: #000;
+    background: url(../img/cta.png) no-repeat;
+    background-size: cover;
+    width: 290px;
+    display: block;
+    height: 50px;
+    font-size: 24px;
+    margin: 0 auto 40px;
 }
 
 div.logo {
@@ -43,4 +91,89 @@ div.tete--date {
 div.tete--date img {
     max-width: 80%;
     width: 440px;
+}
+
+div.row.combat--liste {
+    margin-top: 50px;
+}
+
+div.combat--versus {
+    text-align: center;
+    margin: 0 auto 30px; 
+}
+
+div.combat--versus img {
+    max-width: 100%
+}
+
+div.row.combat--versus--wrap {
+    background: #f1efee;
+    padding: 20px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #797979;
+}
+
+div.combat--versus h3 {
+    text-decoration: none;
+    margin-top: 15px;   
+}
+
+div.combat--versus h4 {
+    text-decoration: none;
+    margin-top: 15px; 
+    margin-bottom: 0;
+}
+
+div.col-sm.versus--image {
+    display: flex;
+    padding: 0;
+}
+
+div.col-sm.versus--image img {
+    margin: auto;
+    width: 70px;
+}
+
+div.pays {
+    color: #003366;
+    font-family: 'Evogria';
+}
+
+div.pays.france:before {
+    background: url(../img/france.png) no-repeat center;
+    content: "";
+    margin-right: 10px;
+    background-size: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    margin-top: 5px;
+}
+
+section.hashtag {
+    background: url(../img/mainevent.png);
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    color: #FFF;
+    text-align: center;
+    min-height: 420px;
+    display: flex;
+}
+
+section div.hashtag--wrap {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+}
+
+section.hashtag .title{
+    font-family: 'Evogria';
+    font-size: 70px;
+    margin: auto;
+}
+
+section.hashtag .button--sort{
+    margin: auto;
 }
