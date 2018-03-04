@@ -70,6 +70,11 @@ section {
     margin: 0 auto 40px;
 }
 
+.rebord,
+.rebord img {
+    width: 100%;
+}
+
 div.logo {
     padding: 30px 0 0;
 }
