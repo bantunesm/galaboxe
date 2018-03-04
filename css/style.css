@@ -1,8 +1,21 @@
+h1,h2,h3 {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+}
+
 header {
     background: url(../img/header.png) center no-repeat;
     background-size: cover;
     min-height: 775px;
     text-align: center;
+}
+
+section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 50px 20px;
 }
 
 div.logo {
