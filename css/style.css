@@ -1,0 +1,33 @@
+header {
+    background: url(../img/header.png) center no-repeat;
+    background-size: cover;
+    min-height: 775px;
+    text-align: center;
+}
+
+div.logo {
+    padding: 30px 0 0;
+}
+
+div.logo img {
+    width: 550px;
+    max-width: 80%;
+}
+
+div.tete--affiche {
+    margin: 30px 0 0;
+}
+
+div.tete--affiche img {
+    max-width: 80%;
+    width: 380px;
+}
+
+div.tete--date {
+    margin: 80px 0 0;
+}
+
+div.tete--date img {
+    max-width: 80%;
+    width: 440px;
+}
