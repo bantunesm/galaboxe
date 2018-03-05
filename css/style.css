@@ -70,6 +70,19 @@ section {
     margin: 0 auto 40px;
 }
 
+.gray--background {
+    background: #f1efee;
+}
+
+.quote {
+    font-family: 'EvogriaItalic';
+    text-align: center;
+}
+
+.quote span {
+    color: #cc0000;
+}
+
 .rebord,
 .rebord img {
     width: 100%;
@@ -157,6 +170,27 @@ div.pays.france:before {
     width: 30px;
     height: 14px;
     margin-top: 5px;
+}
+
+section.combats--details {
+    text-align: center;
+    max-width: 100%;
+}
+
+section.combats--details img {
+    max-width: 100%;
+    padding: 0 100px;
+}
+
+section.combats--details h3 {
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 25px;
+}
+
+section.combats--details div.col-md-5{
+    margin: 0 auto;
+    text-align: justify;
 }
 
 section.hashtag {
