@@ -33,6 +33,10 @@ h4,h5 {
     color: #003366;
 }
 
+h4 {
+    font-size: 1.2rem;
+}
+
 
 h3 {
     color: #cc0000;
@@ -149,11 +153,32 @@ div.combat--versus h4 {
 div.col-sm.versus--image {
     display: flex;
     padding: 0;
+    flex-direction: column;
+    justify-content: center;
 }
 
 div.col-sm.versus--image img {
-    margin: auto;
+    margin: auto auto 0 auto;
     width: 70px;
+}
+
+div.col-sm.versus--image a {
+    margin: 10px auto auto;
+    color: #000;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 div.pays {
@@ -171,6 +196,29 @@ div.pays.france:before {
     height: 14px;
     margin-top: 5px;
 }
+
+div.pays.usa:before {
+    background: url(../img/usa.png) no-repeat center;
+    content: "";
+    margin-right: 10px;
+    background-size: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    margin-top: 5px;
+}
+
+div.pays.belgique:before {
+    background: url(../img/belgique.png) no-repeat center;
+    content: "";
+    margin-right: 10px;
+    background-size: 30px;
+    display: inline-block;
+    width: 30px;
+    height: 14px;
+    margin-top: 5px;
+}
+
 
 section.combats--details {
     text-align: center;
