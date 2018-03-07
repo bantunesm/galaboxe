@@ -74,6 +74,10 @@ section {
     margin: 0 auto 40px;
 }
 
+.button--cta.every--combat {
+    margin: 30px auto 0;
+}
+
 .gray--background {
     background: #f1efee;
 }
@@ -164,7 +168,14 @@ div.col-sm.versus--image img {
 
 div.col-sm.versus--image a {
     margin: 10px auto auto;
-    color: #000;
+    color: #db0104;
+    font-family: 'Evogria';
+}
+
+div.col-sm.versus--image a:before {
+    content: '\f002';
+    margin-right: 5px;
+    font-family: 'FontAwesome';
 }
 
 .videoWrapper {
