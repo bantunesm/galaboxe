@@ -377,6 +377,17 @@ footer p {
   .box{
     width: 70%;
   }
+    
+    header {
+        min-height: auto;
+    }
+    
+    .tete--date {
+    margin: 30px 0 0;
+}
+    div.tete--date img {
+        margin-bottom: 50px;
+    }
   .popup{
     width: 70%;
   }
@@ -394,7 +405,7 @@ footer p {
     }
     
     section.combats--details,
-    section.quote {
+    section.quote, .rebord {
         display: none;
     }
     
@@ -407,8 +418,9 @@ footer p {
     }
     
     section.callback--cta .button--cta {
-    max-width: 100%;
-    font-size: 26px;
-    height: 60px;
+        max-width: 100%;
+        font-size: 26px;
+        height: 58px;
+        width: 100%;
     }
 }
